@@ -1,0 +1,8 @@
+build/
+*.xcodeproj/
+.DS_Store
+*.p8
+*.p12
+.env*
+Secrets.plist
+.claude/settings.local.json

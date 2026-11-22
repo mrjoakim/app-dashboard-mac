@@ -1,0 +1,16 @@
+[
+  {
+    "id": "my-ios-app",
+    "name": "My iOS App",
+    "iosAppStoreId": "1234567890",
+    "iosStoreCountry": "us",
+    "androidPackage": "com.example.myapp",
+    "notionURL": "https://example.com/release-notes"
+  },
+  {
+    "id": "my-mac-app",
+    "name": "My Mac App",
+    "iosStoreCountry": "us",
+    "githubRepo": "owner/repo"
+  }
+]

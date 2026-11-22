@@ -1,0 +1,28 @@
+name: AppDashboard
+options:
+  bundleIdPrefix: com.mrjoakim
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    PRODUCT_NAME: "App Dashboard"
+    GENERATE_INFOPLIST_FILE: YES
+    # Menu-bar-only app: no Dock icon, no main window.
+    INFOPLIST_KEY_LSUIElement: YES
+    # Personal local tool — no App Store, so no sandbox and ad-hoc signing.
+    ENABLE_APP_SANDBOX: NO
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGNING_REQUIRED: NO
+targets:
+  AppDashboard:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mrjoakim.appdashboard
